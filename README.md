@@ -11,4 +11,4 @@ How YLERP works is actually really simple. It's using C# 's built in random libr
 Yes
 
 # How to use YLERP in your own projects
-I have no idea.
+I have no idea. Just copy the code i guess
