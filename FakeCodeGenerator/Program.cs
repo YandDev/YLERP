@@ -39,7 +39,7 @@ namespace FakeCodeGen
 			        // 1,971,216 possible combinations!!!
 			        // Theyre pretty similar, but they ARE different.
 
-			// adding more randomness very soon
+				// adding more randomness very soon
 	    		}
 	    	}
        	}
