@@ -1,0 +1,15 @@
+C:\Users\Yand\Documents\FakeCodeGenerator\obj\Debug\net6.0\FakeCodeGenerator.csproj.AssemblyReference.cache
+C:\Users\Yand\Documents\FakeCodeGenerator\obj\Debug\net6.0\FakeCodeGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yand\Documents\FakeCodeGenerator\obj\Debug\net6.0\FakeCodeGenerator.AssemblyInfoInputs.cache
+C:\Users\Yand\Documents\FakeCodeGenerator\obj\Debug\net6.0\FakeCodeGenerator.AssemblyInfo.cs
+C:\Users\Yand\Documents\FakeCodeGenerator\obj\Debug\net6.0\FakeCodeGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Yand\Documents\FakeCodeGenerator\bin\Debug\net6.0\FakeCodeGenerator.exe
+C:\Users\Yand\Documents\FakeCodeGenerator\bin\Debug\net6.0\FakeCodeGenerator.deps.json
+C:\Users\Yand\Documents\FakeCodeGenerator\bin\Debug\net6.0\FakeCodeGenerator.runtimeconfig.json
+C:\Users\Yand\Documents\FakeCodeGenerator\bin\Debug\net6.0\FakeCodeGenerator.dll
+C:\Users\Yand\Documents\FakeCodeGenerator\bin\Debug\net6.0\ref\FakeCodeGenerator.dll
+C:\Users\Yand\Documents\FakeCodeGenerator\bin\Debug\net6.0\FakeCodeGenerator.pdb
+C:\Users\Yand\Documents\FakeCodeGenerator\obj\Debug\net6.0\FakeCodeGenerator.dll
+C:\Users\Yand\Documents\FakeCodeGenerator\obj\Debug\net6.0\ref\FakeCodeGenerator.dll
+C:\Users\Yand\Documents\FakeCodeGenerator\obj\Debug\net6.0\FakeCodeGenerator.pdb
+C:\Users\Yand\Documents\FakeCodeGenerator\obj\Debug\net6.0\FakeCodeGenerator.genruntimeconfig.cache
