@@ -1,5 +1,4 @@
-#YLERP: The Fake Stereotypical Hacker 'Code' Generator
-*Yes, it stands for*
+# YLERP: The Fake Stereotypical Hacker 'Code' Generator
 
 # Your Local Extremely Random Program
 
