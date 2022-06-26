@@ -1,4 +1,6 @@
 #YLERP: The Fake Stereotypical Hacker 'Code' Generator
+*Yes, it stands for*
+
 # Your Local Extremely Random Program
 
 Generates fake movie stereotypical 'hacker code'. Over 1 million possiblities!
