@@ -38,6 +38,8 @@ namespace FakeCodeGen
 			        Console.WriteLine(RandomCode1[RC1Val]+x[val]+functionalOp[FOVal]+y[valu]+RandomCode2[RC2Val]+ RandomCode1[RC1Val]+RandomCode3[RC3Val]+RandomCode1[RC1Val]+RandomCode2[RC2Val]+RandomCode4[RC4Val]);
 			        // 1,971,216 possible combinations!!!
 			        // Theyre pretty similar, but they ARE different.
+
+					// adding more randomness very soon
 	    		}
 	    	}
        	}
