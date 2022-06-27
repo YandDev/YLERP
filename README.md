@@ -4,7 +4,7 @@
 
 # --Pre-Alpha--
 
-Generates fake movie stereotypical 'hacker code'. Over ***5 million*** possiblities! To be exact, ***5,913,648*** possible out comes!
+Generates fake movie stereotypical 'hacker code'. Over ***10 TRILLION*** possiblities! To be exact, ***10,279,552,640,000*** possible out comes!
 
 # How It Works
 How YLERP™ works is actually really simple. It's using C# 's built in random library and a bunch of arrays. I basically created a fake programming language and wrote a bunch of code that makes no sense in these *string[]* arrays. I did a bunch of variations of fake code that ultimately conveys the same idea. then i also made the variables(example: if *a* > *b*) used in *if* and *while* or *construct(standardConstruct.Make)* (which are also randomised in their own array, and so are the logical operators!)
