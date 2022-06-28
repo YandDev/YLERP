@@ -44,7 +44,11 @@ namespace FakeCodeGen
 					string[] RandomCodeBLoops = new string[] {" in ", " inside ", " out ", " outside ", " per "}; // 5					
 					//string[] RandomCode2 = new string[] {"\n{\n System.CoreDatabase.GetUsers(int) in System.UserDatabaseCore do\n 		User.GetPasswordHash.SetPasswordHashLocation(Paswords.txt)", "\n{\n 	for i in pair.UserParsingService[user.CoreDatabase[ContainUsers]] do\n 	Passwords.DataBreachService(get; set:Passwords.txt;)", "\n{\nforeach CoreDatabase[UserName] in CoreDatabase do\n  	FunctionToGetPasswords = GetFunction(_FunctionPasswords)\n  	FunctionToGetPasswords(passwords,parent,FirstChild,CoreDatabase,true,false,20)"};
 			        //string[] RandomCode2V = new string[] {"\n{\n System.CoreDatabase.GetUsers(int) in System.UserDatabaseCore do\n 		User.GetPasswordHash.SetPasswordHashLocation(Paswords.txt)", "\n{\n 	for i in pair.UserParsingService[user.CoreDatabase[ContainUsers]] do\n 	Passwords.DataBreachService(get; set:Passwords.txt;)", "\n{\nforeach CoreDatabase[UserName] in CoreDatabase do\n  	FunctionToGetPasswords = GetFunction(_FunctionPasswords)\n  	FunctionToGetPasswords(passwords,parent,FirstChild,CoreDatabase,true,false,20)"};
-			        string[] RandomCode3 = new string[] {"\n 		Passwords.GetHashKey(Passwords.txt):ConvertTo(Base64.Encode(true))\n 	If Passwords/txt.IsEmpty(true)","\n 		HashService.PasswordStorage(Passwords.txt):Get(ChildOf(HashService):EncodeToBase64(true)", "\n 			System.GetService:HashService\n 	System.GetService:ConversionService\n 	Method ConvertToBase64():\n 		UseHashService(UseConversionService.Base64)\n 	end)\n 		ConvertToBase64(Passwords.txt)"};
+			        string[] RandomCodeHashFunctions1L1 = new string[] {"Passwords.GetHashKey(", "PasswordDataBase.EnableDataBreach(", "PasswordStorage.GetStorage(", "PasswordProtectionService.SetFalse("}; // 4 no index
+					string[] RandomCodeHashFunctions2L1 = new string[] {"Passwords.txt)", "PassowrdFileStorage(Format.txt))", "PasswordsFile.Access)", "WordPasses.FileAccess(true.Enable))"}; // 4 no index
+					string[] RandomCodeHashFunctions3L1 = new string[] {":ConvertTo(", ":ConvertFromHashTo(", ":EncodeTo(", ":DecodeFromHash(base64(", ":HashTo("}; // 5 no index
+					string[] RandomCodeHashFunctions4L1 = new string[] {"EncodingService(Base64.EncodeFromServer)", "ServiceGet:(Encode):Base64()", "Service.Convert.ProcessBegin(Hash->Base64)"}; // 3 no index
+					string[] RandomCode3 = new string[] {"\n 		Passwords.GetHashKey(Passwords.txt):ConvertTo(Base64.Encode(true))\n 	If Passwords/txt.IsEmpty(true)","\n 		HashService.PasswordStorage(Passwords.txt):Get(ChildOf(HashService):EncodeToBase64(true)", "\n 			System.GetService:HashService\n 	System.GetService:ConversionService\n 	Method ConvertToBase64():\n 		UseHashService(UseConversionService.Base64)\n 	end)\n 		ConvertToBase64(Passwords.txt)"};
 			        string[] RandomCode4 = new string[] {"\n 			Try:\n 	 		System.DecodeToEncodableYerlp128(Service.Get()) = EncodableYerlp128\nCatch(UnknowServiceException):ServiceGetter.Activate(Service.System:Get(System.DecodeToEncodableYerlp128))\n 	EncodableYerlp128(Yerlp.LanguageLibrary.Translate(string = this.ToString()).GetFileService(file):'DecodedPasswords.txt'(WriteLine())", "		From(Base64) Of Passwords.txt Do:\n 	GetLanguageLibrary(Ylerp);UseLanguageLibrary(Base64->Ylerp) File.FileService(DecodedPasswords.txt).Write(Ylerp.DecodedPasswords)"};
 			        int RC1Val = rnd.Next(RandomCode1.Length);
 			        //int RC2Val = rnd.Next(RandomCode2.Length);
@@ -65,7 +69,11 @@ namespace FakeCodeGen
 					int RCIGC2 = rnd.Next(RandomCodeItemsGrandChildren2.Length);
 					int RCHIP = rnd.Next(RandomCodeHashItemsParents.Length);
 					int RCIHC = rnd.Next(RandomCodeHashItemsChildren.Length);
-					int RCIHGC = rnd.Next(RandomCodeHashItemsGrandChildren.Length);					
+					int RCIHGC = rnd.Next(RandomCodeHashItemsGrandChildren.Length);		
+					int RCHF1L1 = rnd.Next(RandomCodeHashFunctions1L1.Length);	
+					int RCHF2L1 = rnd.Next(RandomCodeHashFunctions2L1.Length);		
+					int RCHF3L1 = rnd.Next(RandomCodeHashFunctions3L1.Length);		
+					int RCHF4L1 = rnd.Next(RandomCodeHashFunctions4L1.Length);				
 					int number = rnd.Next(1,10000);
 
 					var CodeOutput = RandomCode1[RC1Val]+x[val]+functionalOp[FOVal]+y[valu]+RandomCodeStatements[RCS]+RandomCodeItemsParents[RCIP]+RandomCodeItemsChildren[RCIC]+RandomCodeItemsGrandChildren[RCIGC]+RandomCodeBLoops[RCBL]+RandomCodeItemsParents2[RCIP2]+RandomCodeItemsChildren2[RCIC2]+RandomCodeItemsGrandChildren2[RCIGC2]+RandomCodeStatements2[RCS2]+RandomCodeHashItemsParents[RCHIP]+RandomCodeHashItemsChildren[RCIHC]+RandomCodeHashItemsGrandChildren[RCIHGC]+RandomCode3[RC3Val]+RandomCode4[RC4Val];
