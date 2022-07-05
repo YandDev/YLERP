@@ -2,8 +2,9 @@
 
 # Your Local Extremely Random Program™
 
-# --Pre-Alpha--
+### VERSION 1.1.0
 
+### What YLERP Does
 Generates fake movie stereotypical 'hacker code'. Over ***10 TRILLION*** possiblities! To be exact, ***10,279,552,640,000*** possible out comes!
 
 # How It Works
